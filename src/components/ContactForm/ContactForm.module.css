@@ -3,6 +3,7 @@
     border: 2px solid black;
     border-radius: 3%;
     padding: 10px;
+    margin-bottom: 10px;
 }
 
 .input {
@@ -10,6 +11,7 @@
     display: flex;
     margin-bottom: 8px;
     width: 100%;
+    color: black;
 }
 
 .error {

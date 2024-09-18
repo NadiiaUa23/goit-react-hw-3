@@ -20,3 +20,7 @@
 h1 {
   margin: 15px;
 }
+
+li {
+  list-style-type: none;
+}
