@@ -1,4 +1,4 @@
-import './App.css'
+import  './App.css'
 import { useState, useEffect} from "react";
 import contactsBook from './contactsBook.json';
 import SearchBox from './components/SearchBox/SearchBox';
