@@ -5,11 +5,6 @@ import SearchBox from './components/SearchBox/SearchBox';
 import ContactList from './components/ContactList/ContactList';
 import ContactForm from './components/ContactForm/ContactForm';
 
-
-
-// import ContactForm from './src/components/ContactForm/ContactForm';
-
-
 const App = () => {
     const [contacts, setContacts] = useState(() => {
       return JSON.parse(localStorage.getItem('contacts')) || contactsBook;
@@ -24,18 +19,18 @@ const App = () => {
 
 // Додавання контакту
     const addContact = (newContact) => {
-       const duplicate = contacts.find(contact => contact.name === newContact.name);
+      const duplicate = contacts.find(contact => contact.name === newContact.name);
 
-       if (duplicate) {
+      if (duplicate) {
         alert ('${newContact.name} is already in contacts.');
-       } else {
+      } else {
         setContacts(prevContacts => [...prevContacts, newContact]);
-       }
-       }
+      }
+      }
     
 
  // Функція для видалення контакту
- const deleteContact = (contactId) => {
+const deleteContact = (contactId) => {
   setContacts(prevContacts => prevContacts.filter(contact => contact.id !== contactId));
 };
 
@@ -65,6 +60,5 @@ const App = () => {
 </div>
     );
   };
-
 
 export default App;

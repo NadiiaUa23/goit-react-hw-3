@@ -1,5 +1,5 @@
 .box {
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 3%;
     display: flex;
     align-items: center;
@@ -11,11 +11,8 @@
 .etm {
     display: flex;
     flex-direction: column;
-
 }
 
-.contactName {}
-
-.contactNumber {}
-
-.btn {}
+.icon {
+    margin-right: 10px;
+}

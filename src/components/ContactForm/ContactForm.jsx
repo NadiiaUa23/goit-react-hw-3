@@ -35,7 +35,6 @@ const ContactForm = ({ onSubmit }) => {
   };
 
   return (
-   
     <Formik
       initialValues={initialValues}
       validationSchema={validationSchema}
@@ -69,7 +68,6 @@ const ContactForm = ({ onSubmit }) => {
         </Form>
       )}
     </Formik>
-   
   );
 };
 

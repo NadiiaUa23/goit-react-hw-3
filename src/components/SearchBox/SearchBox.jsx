@@ -1,4 +1,3 @@
-import React from 'react';
 import style from './SearchBox.module.css';
 
 const SearchBox = ({ value, onChange }) => {
